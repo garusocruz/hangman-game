@@ -44,3 +44,12 @@ poetry add fast-api
 poetry install
 ```
 
+---
+
+## Pre-commit
+
+To use pre commit you need to run the code bellow:
+
+```
+pre-commit install
+```
