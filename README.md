@@ -11,3 +11,9 @@ python -m venv .venv
 ```
 source .venv/bin/activate
 ```
+
+## Install a poetry package manager
+
+```
+pip install poetry
+```
