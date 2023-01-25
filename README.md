@@ -44,6 +44,18 @@ poetry add fast-api
 poetry install
 ```
 
+### To start a fast api server application
+
+```
+poetry run server
+```
+
+### To start a fast api server application in another port
+
+```
+poetry run server --port=8001
+```
+
 ---
 
 ## Pre-commit
