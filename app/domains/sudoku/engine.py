@@ -1,5 +1,6 @@
-import numpy as np
 import random
+
+import numpy as np
 
 
 class Engine:
@@ -116,7 +117,6 @@ class Engine:
                             continue
                     count += 1
             else:
-                done = True
                 break
 
     def win_game(self, masked_board, not_check):

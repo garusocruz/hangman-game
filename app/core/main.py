@@ -2,11 +2,10 @@
 main module all configurations from fast api application
 """
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.domains.game.routers import v1 as game_v1
 from app.domains.sudoku.routers import v1 as sudoku_v1
-
-from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 origins = [

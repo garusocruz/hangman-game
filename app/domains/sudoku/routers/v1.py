@@ -1,5 +1,7 @@
 import random
+
 from fastapi import APIRouter, Response, status
+
 from app.domains.sudoku.engine import Engine
 
 router = APIRouter()
@@ -24,4 +26,3 @@ async def game(res: Response):
     res.status_code = status.HTTP_200_OK
 
     return engine.create_sudoku(random.randint(1, 9))
- 
