@@ -25,7 +25,7 @@ async def index():
     return JSONResponse(status_code=status.HTTP_200_OK, content={})
 
 
-@router.get("/game", responses={status.HTTP_200_OK: {"model": Game}})
+@router.get("/hangman-game", responses={status.HTTP_200_OK: {"model": Game}})
 async def start_game():
     """start a new game session endpoint
 
